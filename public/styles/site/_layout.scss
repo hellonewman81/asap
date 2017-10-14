@@ -16,5 +16,13 @@
 }
 
 
+// set some base styles to use Roboto type face
+h1, h2, h3, .h1, .h2, .h3, .lead, .btn  {
+  font-family: 'Roboto', sans-serif;
+}
 
-
+h1, .h1 {
+  text-transform: uppercase;
+  border-left: 6px solid #d1d6da;
+  padding-left: 1rem;
+}

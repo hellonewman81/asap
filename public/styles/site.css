@@ -5692,3 +5692,11 @@ a.text-dark:focus, a.text-dark:hover {
   display: block;
   max-width: 100%;
   height: auto; }
+
+h1, h2, h3, .h1, .h2, .h3, .lead, .btn {
+  font-family: 'Roboto', sans-serif; }
+
+h1, .h1 {
+  text-transform: uppercase;
+  border-left: 6px solid #d1d6da;
+  padding-left: 1rem; }
