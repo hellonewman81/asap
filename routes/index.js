@@ -36,7 +36,7 @@ var routes = {
 exports = module.exports = function (app) {
 
 	app.use(rewrite('/about-us', '/blog/post/about-us'));
-
+	
 	// Views
 	app.get('/', routes.views.index);
 	app.get('/blog/:category?', routes.views.blog);
