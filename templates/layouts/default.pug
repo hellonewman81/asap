@@ -43,6 +43,22 @@ html
 		//- Add any other template-specific HEAD tags by extending the head block
 		block head
 			
+		style(type='text/css').
+			.pos-relative {
+				position: relative;
+			}
+
+			.title-abs {
+				position: absolute;
+				display: block;
+				font-size: 8vw;
+				max-width: 100%;
+				color: #fff;
+				margin: 2vw;
+				text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+				line-height: 1;
+			}
+			
 		script(type="text/javascript").
 			(function (i, s, o, g, r, a, m) {
 				i['GoogleAnalyticsObject'] = r;
@@ -111,12 +127,21 @@ html
 
 		//- FOOTER
 		.container: #footer
-
-			//- You don't _have_ to include a link saying your site is powered by KeystoneJS, but we appreciate it!
-			p &copy; 2017 Allspec & Partners. 58 Fitzroy Street, TUMUT NSW 2720
-			p Phone: (02) 69 476 761
-
-
+			
+			.row.small
+				.col-12.col-sm-4
+					p.mb-0  
+						span.font-weight-bold A 
+						span.text-muted 58 Fitzroy Street, TUMUT NSW 2720
+					p
+						span.font-weight-bold P 
+						span.text-muted (02) 69 476 761
+						
+				.col-12.col-sm-4
+					//- You don't _have_ to include a link saying your site is powered by KeystoneJS, but we appreciate it!
+					p.text-muted &copy; 2017 Allspec & Partners.
+					
+						
 		//- JAVASCRIPT
 
 		//- jQuery 1.11.3 is included by default, and required by both Bootstrap
