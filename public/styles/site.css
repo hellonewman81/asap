@@ -5712,3 +5712,19 @@ h1, .h1 {
     max-width: 220px; }
     .navbar-brand img {
       width: 100%; } }
+
+.pos-relative {
+	position: relative;
+}
+
+.title-abs {
+	position: absolute;
+	display: block;
+	font-size: 8vw;
+	max-width: 100%;
+	color: #fff;
+	margin: 2vw;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+	line-height: 1;
+}
+

@@ -2,14 +2,15 @@ extends ../layouts/default
 
 block content
 	.container: .my-3
-		h1 Hire
+		div.pos-relative
+			h1.mb-5.title-abs Hire
+			img(src='/images/hire/hero.png', width='100%')
 
-		img(src='/images/hire/hero.png', width='100%')
-		
-		h4.my-4 We hire a full range of machine control equipment including;
-		ul
-			li Universal total stations
-			li GPS base station receiver
-			li Radios
-			li Grader prisms
-			
+		.text-center
+			h4.my-4 We hire a full range of machine control equipment including;
+			ul.list-unstyled
+				li Universal total stations
+				li GPS base station receiver
+				li Radios
+				li Grader prisms
+				

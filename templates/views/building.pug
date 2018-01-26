@@ -1,42 +1,44 @@
 extends ../layouts/default
 
 block content
-	.container: .my-3.text-center
-		h1.mb-5 Building Design
+	.container: .my-3
+		div.pos-relative
+			h1.mb-5.title-abs Building Design
+			img(src='/images/building/hero.png', width='100%')
 		
-		img(src='/images/building/hero.png', width='100%')
-		
-		h2.my-3 We Design & Specialise In
-		ul.list-unstyled
-			li Residential Drawings
-			li Extensions & Renovations
-			li Service Station Service Centers and Upgrades
-			li Offices, Clubs And Other Commercial Projects
-			li Drafting Services
-			li Project Management
+		.text-center
+			h2.my-3 We Design & Specialise In
+			ul.list-unstyled
+				li Residential Drawings
+				li Extensions & Renovations
+				li Service Station Service Centers and Upgrades
+				li Offices, Clubs And Other Commercial Projects
+				li Drafting Services
+				li Project Management
+				li Town Planning
 			
 	.container
 		.row
 			.col-12.col-sm-4
-				img(src='/images/landscape.jpg', width='100%')
+				img(src='/images/building/dwellings.png', width='100%')
 				p New Dwellings 
 					
 			.col-12.col-sm-4
-				img(src='/images/landscape.jpg', width='100%')
+				img(src='/images/building/bathroom.jpg', width='100%')
 				p Renovations 
 				
 			.col-12.col-sm-4
-				img(src='/images/landscape.jpg', width='100%')
+				img(src='/images/building/commercial.png', width='100%')
 				p Commercial 
 				
 		.row
 			.col-12.col-sm-4
-				img(src='/images/landscape.jpg', width='100%')
-				p Service Stations 
+				img(src='/images/placeholder.png', width='100%')
+				p Town Planning
 			.col-12.col-sm-4
-				img(src='/images/landscape.jpg', width='100%')
+				img(src='/images/building/drafting.png', width='100%')
 				p Drafting  
 			.col-12.col-sm-4
-				img(src='/images/landscape.jpg', width='100%')
+				img(src='/images/placeholder.png', width='100%')
 				p Project Management 
 				
