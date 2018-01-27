@@ -13,7 +13,7 @@ block content
 			h3 Thanks for getting in touch.
 		else
 			.row
-				.col-sm-8.col-md-6
+				.col-12.col-md-6.col-lg-7.mb-5
 					h1.mb-4 Contact Us
 					form(method='post')
 						input(type='hidden', name='action', value='contact')
@@ -37,9 +37,14 @@ block content
 							textarea(name='message', placeholder='Leave us a message...' rows=4).form-control= formData.message
 						.form-actions
 							button(type='submit').btn.btn-primary Send
-				.col-sm-4.col-md-6
+							
+				.col-12.col-md-6.col-lg-5
 					h2 Information
-					p Allspec & Partners. 58 Fitzroy Street, TUMUT NSW 2720
-					p Phone: (02) 69 476 761
+					p.mb-0
+						span.font-weight-bold A 
+						span.text-muted 58 Fitzroy Street, TUMUT NSW 2720
+					p
+						span.font-weight-bold P 
+						span.text-muted (02) 69 476 761
 						
 					
